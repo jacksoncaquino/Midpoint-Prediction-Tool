@@ -16,11 +16,11 @@ It can price one or more jobs at a time. The user can type the job code and comp
 VBA then gathers the user input and passes it to Python through a text file with parameters, then calls the Python pricing script.
 
 In summary, the ~1000 lines python code (which is not shared here) includes functions that will do the following:
-• Get job family using the job codes
-• Get location information from the comp market code
-• Verify if we already have jobs priced in the same job family in that location to make sure intra-level progression will be applied
-• Calculate the typical progression between levels in that location
-• Calculate pay range midpoint through optimal pay range progression
+• Get job family using the job codes<br>
+• Get location information from the comp market code<br>
+• Verify if we already have jobs priced in the same job family in that location to make sure intra-level progression will be applied<br>
+• Calculate the typical progression between levels in that location<br>
+• Calculate pay range midpoint through optimal pay range progression<br>
 • Get market data available from our Excel reports
 • See which level in the job family has the best quality data
 • Calculate pay range based on market data
