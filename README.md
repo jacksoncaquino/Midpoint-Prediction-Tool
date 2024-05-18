@@ -5,12 +5,10 @@ One of the processes that used to take a great deal of time daily from our work 
 
 It is made available to the whole team through SharePoint, where I load the latest version of all the reports that are used for pricing, along with the latest version of the code so they get all the updates whenever I improve the tool.
 
-The tool is accessed by anyone on the team through an Excel Add-in:
-
+The tool is accessed by anyone on the team through an Excel Add-in:<br>
 ![image](https://github.com/jacksoncaquino/Midpoint-Prediction-Tool/assets/61064363/d438b956-1a54-4fa2-8a9c-a7971a5daede)
 
-It can price one or more jobs at a time. The user can type the job code and compensation market directly on the form, or select a cell or group of cells where the data is:
-
+It can price one or more jobs at a time. The user can type the job code and compensation market directly on the form, or select a cell or group of cells where the data is:<br>
 ![image](https://github.com/jacksoncaquino/Midpoint-Prediction-Tool/assets/61064363/ec4e2788-28a1-4295-a734-dcff7dae31de)
 
 VBA then gathers the user input and passes it to Python through a text file with parameters, then calls the Python pricing script.
@@ -21,14 +19,14 @@ In summary, the ~1000 lines python code (which is not shared here) includes func
 • Verify if we already have jobs priced in the same job family in that location to make sure intra-level progression will be applied<br>
 • Calculate the typical progression between levels in that location<br>
 • Calculate pay range midpoint through optimal pay range progression<br>
-• Get market data available from our Excel reports
-• See which level in the job family has the best quality data
-• Calculate pay range based on market data
-• Get all jobs in our main location (headquarted in the United States) and see which ones are also priced on the target location
-• Calculate costs to make sure cost differentials are consistent across jobs in the same geography
-• Analyze the data from the above pricing approaches and recommend the final midpoint for the pay range
-• Write a log that the Comp analysts can follow and understand the model's recommendations (it's not just a black box that does not justify its decisions)
-• Saves the log file for future reference/training/audits
+• Get market data available from our Excel reports<br>
+• See which level in the job family has the best quality data<br>
+• Calculate pay range based on market data<br>
+• Get all jobs in our main location (headquarted in the United States) and see which ones are also priced on the target location<br>
+• Calculate costs to make sure cost differentials are consistent across jobs in the same geography<br>
+• Analyze the data from the above pricing approaches and recommend the final midpoint for the pay range<br>
+• Write a log that the Comp analysts can follow and understand the model's recommendations (it's not just a black box that does not justify its decisions)<br>
+• Saves the log file for future reference/training/audits<br>
 
 Here's a small snippet of what the code looks like:
 
