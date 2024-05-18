@@ -28,8 +28,7 @@ In summary, the ~1000 lines python code (which is not shared here) includes func
 • Write a log that the Comp analysts can follow and understand the model's recommendations (it's not just a black box that does not justify its decisions)<br>
 • Saves the log file for future reference/training/audits<br>
 
-Here's a small snippet of what the code looks like:
-
+Here's a small snippet of what the code looks like:<br>
 ![image](https://github.com/jacksoncaquino/Midpoint-Prediction-Tool/assets/61064363/e2e1e1f9-ebce-4f42-a8d3-97439ccabc71)
 
 When the Python script is done pricing the job, it returns it to Excel through the same parameters text file, which then is read by VBA and populates the target cells with the pay range midpoints.
