@@ -32,3 +32,8 @@ Here's a small snippet of what the code looks like:<br>
 ![image](https://github.com/jacksoncaquino/Midpoint-Prediction-Tool/assets/61064363/e2e1e1f9-ebce-4f42-a8d3-97439ccabc71)
 
 When the Python script is done pricing the job, it returns it to Excel through the same parameters text file, which then is read by VBA and populates the target cells with the pay range midpoints.
+
+Here's an example of what the text file for the log looks like:<br>
+![image](https://github.com/jacksoncaquino/Midpoint-Prediction-Tool/assets/61064363/60f26e8f-ba23-41e6-95b1-828a81999002)
+
+If the user chooses to make changes to the pricing, he or she is more than welcome to, and they can use the log file to keep notes of their changes.
